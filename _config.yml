@@ -1,7 +1,8 @@
 # Site settings
 title: Les zinzins
 email: contact@leszinzins.co
-description: "Site collaboratif sur l'activité évènementielle du grand Toulouse"
+description: "Portail de communication pour les artistes, leur public, les professionnels du spectable et de l'éducation"
+
 baseurl: ""
 url: "http://leszinzins.co"
 

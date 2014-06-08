@@ -265,7 +265,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -5774,5 +5774,30 @@ button.close {
 }
 body {
   padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.navbar-brand {
+  font-family: 'Stalemate', cursive;
+  font-size: 30px;
+}
+#presentation {
+  background-color: #fb863a;
+  min-height: 200px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#presentation h1 {
+  font-family: 'Stalemate', cursive;
+  color: white;
+  font-size: 90px;
+}
+#presentation h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 22px;
 }
 /*# sourceMappingURL=styles.css.map */

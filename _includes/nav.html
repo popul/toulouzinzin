@@ -11,10 +11,9 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active" ><a href="#home">Accueil</a></li>
-                <li><a href="#presentation">Présentation</a></li>
-                <li><a href="#func">Fonctionnalités</a></li>
-                <li><a href="#share">Partager</a></li>
+                {% for sec in site.tags.section reversed %}
+                    <li><a href="#{{ sec.htmlId }}">{{ sec.title }}</a></li>
+                {% endfor %}
             </ul>
         </div><!--/.nav-collapse -->
     </div>

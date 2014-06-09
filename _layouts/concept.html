@@ -22,9 +22,13 @@
 
 {% include nav.html %}
 
-{{ content }}
-
-{% include disqus.html %}
+{% for sec in site.tags.section reversed %}
+    <section id="{{ sec.htmlId }}">
+        <div class="container">
+            {{ sec.content }}
+        </div>
+    </section>
+{% endfor %}
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="javascript/jquery.min.js"></script>
